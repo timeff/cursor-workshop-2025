@@ -1,4 +1,4 @@
-const { findMax, countVowels } = require("../basic-tool/chat.js");
+const { findMax, countVowels } = require("../chat.js");
 
 // Example 1: Find Maximum Tests
 describe("findMax", () => {

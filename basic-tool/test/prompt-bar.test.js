@@ -1,4 +1,4 @@
-const { calculateAverage, countCharacters } = require("../basic-tool/inline");
+const { calculateAverage, countCharacters } = require("../prompt-bar");
 
 describe("calculateAverage", () => {
   test("calculates average of positive numbers", () => {
