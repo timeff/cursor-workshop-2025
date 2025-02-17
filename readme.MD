@@ -11,4 +11,11 @@
 
 This consists of exercise files to try out the cursor features.
 
-To run the tests to check your answers, run `jest` follow by name of the file. eg. `jest prompt-bar`
+To run the tests to check your answers, run `npm run` follow by test-suite
+
+The test-suite consists of:
+
+- test-prompt-bar
+- test-chat
+
+eg. `npm run test-prompt-bar`

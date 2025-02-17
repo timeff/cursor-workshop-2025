@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test-prompt-bar": "jest prompt-bar",
+    "test-chat": "jest chat"
   },
   "author": "",
   "license": "ISC",
