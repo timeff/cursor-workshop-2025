@@ -59,7 +59,7 @@ let person = [];
 
 // =================== Code Explaining & Refactoring ===================
 
-// Legacy function that processes user transaction data
+// Example 7:Legacy function that processes user transaction data
 // WARNING: This legacy code has multiple issues and needs refactoring
 function processUserTxn(d, cfg, f) {
   let r = [];
