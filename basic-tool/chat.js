@@ -6,7 +6,7 @@
 // Example: countVowels('hello') => 2
 
 function countVowels(str) {
-  return countVowels(str);
+  return null;
 }
 
 // Example 2: Create a function that allocates money among payers and formats in Thai Baht
