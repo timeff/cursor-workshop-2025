@@ -1,3 +1,6 @@
+const cheerio = require("cheerio");
+const OpenAI = require("openai");
+
 // =================== Function generator ===================
 
 // Example 1: Create a function that counts the number of vowels in a string
@@ -27,8 +30,20 @@ async function getLatestPTTPrice() {
   return null;
 }
 
+// Example 4: Create a function that fetches and summarizes a web article
+// Input:
+//   - url: string (URL of the article to summarize)
+//   - maxLength: number (maximum length of summary in characters)
+// Output: string containing the summarized article
+// Example: summarizeArticle('https://example.com/article', 250) => 'This article discusses...'
+// Hint - using LLM to summarize the article
+async function summarizeArticle(url, maxLength) {
+  return null;
+}
+
 module.exports = {
-  countVowels, // Keep existing export
-  allocateAndFormatThaiBaht, // Add new export
+  countVowels,
+  allocateAndFormatThaiBaht,
   getLatestPTTPrice,
+  summarizeArticle,
 };
