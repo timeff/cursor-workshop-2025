@@ -1,4 +1,5 @@
 const OpenAI = require("openai");
+require("dotenv").config();
 
 class StoryEvaluatorAgent {
   constructor() {

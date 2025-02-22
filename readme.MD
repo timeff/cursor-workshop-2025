@@ -25,3 +25,7 @@ The test-suite consists of:
 - test-chat
 
 eg. `npm run test-prompt-bar`
+
+## Agent Storyteller (Folder: agent-storyteller)
+
+To run it you need to have OPENAI_API_KEY in your environment variables. and run `npm i openai dotenv`

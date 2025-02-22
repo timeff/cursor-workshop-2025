@@ -1,4 +1,5 @@
 const OpenAI = require("openai");
+require("dotenv").config();
 
 class StorytellerAgent {
   constructor() {
@@ -12,6 +13,11 @@ class StorytellerAgent {
       const response = await this.openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: [
+          // {
+          //   role: "system",
+          //   content:
+          //     "You are a creative storyteller. Generate a single paragraph short story based on the given topic without saying any topic related words. Keep it engaging and concise.",
+          // },
           {
             role: "system",
             content:
