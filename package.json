@@ -11,9 +11,5 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  },
-  "dependencies": {
-    "cheerio": "^1.0.0",
-    "openai": "^4.85.3"
   }
 }

@@ -36,7 +36,6 @@ module.exports = {
   ex2,
   calculateAverage,
   countCharacters,
-  processUserTxn,
 };
 
 // =================== Time intensive task ===================

@@ -1,4 +1,8 @@
-const { countVowels, allocateAndFormatThaiBaht } = require("../chat.js");
+const {
+  countVowels,
+  allocateAndFormatThaiBaht,
+  formatThaiID,
+} = require("../chat.js");
 
 // Example 1: Count Vowels Tests
 describe("countVowels", () => {
