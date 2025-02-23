@@ -3,14 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test-prompt-bar": "jest prompt-bar",
-    "test-chat": "jest chat",
-    "test-storyteller": "jest agent-storyteller --verbose"
-  },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.0.0"
-  }
+  "license": "ISC"
 }

@@ -1,25 +1,5 @@
-const {
-  countVowels,
-  allocateAndFormatThaiBaht,
-  formatThaiID,
-} = require("../chat.js");
+const { allocateAndFormatThaiBaht } = require("../allocate-thb");
 
-// Example 1: Count Vowels Tests
-describe("countVowels", () => {
-  test("counts vowels in simple string", () => {
-    expect(countVowels("hello")).toBe(2);
-  });
-
-  test("handles string with no vowels", () => {
-    expect(countVowels("rhythm")).toBe(0);
-  });
-
-  test("handles empty string", () => {
-    expect(countVowels("")).toBe(0);
-  });
-});
-
-// Example 2: Allocate and Format Thai Baht Tests
 describe("allocateAndFormatThaiBaht", () => {
   test("splits amount evenly among 3 people", () => {
     expect(allocateAndFormatThaiBaht(1000, 3)).toEqual([
