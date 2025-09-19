@@ -10,6 +10,7 @@ function ex1(people) {
 //     { name: "Bryan", age: 25 },
 //     { name: "Jill", age: 34 },
 //   ])
+// );
 
 // Example 2: Implement as instructed in slide
 function ex2(list) {
