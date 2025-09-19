@@ -4,11 +4,8 @@
  * @returns {number} Number of vowels (a, e, i, o, u) in the string
  * @example countVowels('hello') => 2
  */
-function countVowels(str) {
+function ex3(str) {
   return null;
 }
 
-module.exports = { countVowels };
-
-// console.log("chat/count-vowels");
-// console.log(countVowels("hello"));
+module.exports = { ex3 };

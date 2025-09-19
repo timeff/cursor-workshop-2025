@@ -1,4 +1,4 @@
-const { countVowels } = require("../count-vowel");
+const { ex3 } = require("../ex3");
 
 describe("countVowels", () => {
   test("counts vowels in simple string", () => {
